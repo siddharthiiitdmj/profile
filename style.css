@@ -1,0 +1,108 @@
+*{
+    /* padding: 0;*/
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* overflow-x: hidden; */
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1.5vh 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: crimson;
+    color: white;
+}
+nav h1{
+    color: white;
+    font-size: 3vw;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin-left: 1.5vw;
+    font-size: 1.5vw;
+}
+nav ul li a{
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+nav ul li a:active{
+    color: wheat;
+}
+.head{
+    background: url("images/banner.jpg") center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+.text1{
+    padding: 35vh 0 2vh 5vw;
+    font-size: 2.5vw;
+}
+.text2{
+    padding: 1vh 0 1.5vh 5vw;
+    font-size: 3.5vw;
+}
+.text3{
+    padding: 0.5vh 0 2vh 5vw;
+    font-size: 2.5vw;
+}
+.head span{
+    color: crimson;
+    font-size: 3.5vw;
+}
+
+section{
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
+h1{
+    color: navy;
+}
+p{
+    margin: 1.5vh 0;
+}
+.about ul li{
+    margin: 1vw;
+}
+u{
+    text-decoration: underline;
+}
+table{
+    background-color: lime;
+    border: 2px solid black;
+    text-align: center;
+}
+td, th{
+    background-color: wheat;
+    border: 2px solid black;
+    padding: 4px;
+}
+
+.skills ul li{
+    margin-top: 1vh;
+}
+.social{
+    margin-bottom: 3vh;
+}
+.social h1{
+    margin-bottom: 1vh;
+}
+.social a:hover{
+    text-decoration: underline;
+    color: crimson;
+}
