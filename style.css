@@ -102,6 +102,9 @@ td, th{
 .social h1{
     margin-bottom: 1vh;
 }
+.social a{
+    color: blue;
+}
 .social a:hover{
     text-decoration: underline;
     color: crimson;
